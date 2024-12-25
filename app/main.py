@@ -14,10 +14,11 @@ app.include_router(user.router)
 
 app.include_router(task.router)
 
-#  python -m uvicorn main:app
+# cd app
+#  python -m uvicorn main:app   (потом это)
 # alembic init app/migrations
 # alembic revision --autogenerate -m "Initial migration"
-# cd app
 
 
-# alembic upgrade head
+
+# alembic upgrade head    (Сначала это)
